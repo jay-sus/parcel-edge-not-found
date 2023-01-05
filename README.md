@@ -39,9 +39,3 @@ npm run build
       at async RequestTracker.runRequest
   (D:\parcel-edge-not-found\node_modules\@parcel\core\lib\RequestTracker.js:756:20)
 ```
-
-### Working command
-
-```bash
-npm run thisworks
-```
