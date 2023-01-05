@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "name": "parcel-edge-not-found",
+    "scripts": {
+        "build": "parcel build",
+        "thisworks": "parcel build --target target1 && parcel build --target target2"
+    },
+    "targets": {
+        "target1": {
+            "source": [
+                "./src/target1.html"
+            ],
+            "distDir": "./target1/"
+        },
+        "target2": {
+            "source": [
+                "./src/target2.html"
+            ],
+            "distDir": "./target2/"
+        }
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.8.2",
+        "parcel": "^2.8.2"
+    }
+}
